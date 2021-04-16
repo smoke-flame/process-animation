@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation</title>
+    <link rel="stylesheet" href="assets/scss/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <h1 class="status-title">Identification</h1>
+        <div class="status-img">
+          <div class="pie spinner"></div>
+          <div class="pie filler"></div>
+          <div class="mask"></div>
+          <img
+            class="status--ready status-img--item"
+            src="assets/img/fingerprint.svg"
+            alt="fingerprint"
+          />
+          <div class="status-img__block status--pending status-img--item">
+            <img src="assets/img/symbols.svg" alt="symbols" />
+            <p class="status-img__block__text">pay</p>
+          </div>
+          <img
+            class="status--success status-img--item"
+            src="assets/img/check-mark-black-outline.svg"
+            alt="check"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
